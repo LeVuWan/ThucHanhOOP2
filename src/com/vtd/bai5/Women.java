@@ -21,4 +21,14 @@ public class Women extends Angel implements Holy, Impatient, Sinister {
 	public void kickThePotOfTea() {
 		System.out.println(name + " kicked the pot of tea.");
 	}
+
+	@Override
+	public void dance() {
+		System.out.println("Dancing...");
+	}
+
+	@Override
+	public void sing() {
+		System.out.println("Singing...");
+	}
 }

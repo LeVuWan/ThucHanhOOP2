@@ -1,11 +1,7 @@
 package com.vtd.bai4;
 
 public abstract class Animal {
-	public void eat() {
-		System.out.println("Eating....");
-	}
+	public abstract void eat();
 
-	public void breathe() {
-		System.out.println("Breathing.....");
-	}
+	public abstract void breathe();
 }

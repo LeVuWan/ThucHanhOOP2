@@ -1,11 +1,7 @@
 package com.vtd.bai5;
 
 public abstract class Angel {
-	public void dance() {
-		System.out.println("Dancing...");
-	}
+	public abstract void dance();
 
-	public void sing() {
-		System.out.println("Singing...");
-	}
+	public abstract void sing();
 }
